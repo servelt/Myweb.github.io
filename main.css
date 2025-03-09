@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url(mainpage.jpg) no-repeat center;
+    background-size: cover;
+
+}
+.news-item{
+    color: white;
+}
+
+body{
+    color: white;
+    text-align:center;
+}
+
+button {
+    background-color: #AF0500;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 10px;
+    width: 150px; 
+    height: 40px; 
+    font-size: 18px; 
+    border: none;
+    border-radius: 25px;
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Space Grotesk'); 
+body {                                                             
+    font-family: 'Space Grotesk';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#register{ 
+    background: url(background1.jpg) no-repeat center;
+    background-size: cover;
+}
+#login {   
+    background: url(background2.jpg) no-repeat top;
+    background-size: cover;
+}
+
+body::before{ 
+    content:"";
+    position: absolute; z-index: 1;
+    top: 0;right: 0;bottom: 0;left: 0;
+    background-color: rgba(0,0,0,.7);
+}
+
+form{position: relative; z-index: 2;}
+
+form h1{ 
+    font-size: 32px; color:#fff;
+    text-align: center;
+}
+
+form label { 
+    font-weight: bold;
+    line-height: 2;
+    text-align: left; 
+    font-size: small;
+    display: block; 
+    width: 100%; 
+    color: #999;
+}
+
+form button{ 
+    background-color: #3B68E5;
+    font-weight: bolder;
+    color: #fff;
+
+}
+
+
+form { 
+    text-align: center;
+    max-width: 300px; 
+}
+
+input{ 
+    font-family:'Space Grotesk';
+    font-weight: bolder;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid #999;
+    font-size: 18px; color: #fff;
+}
+
+
+
+a:link, a:visited {
+    color: #2C54C1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(110, 143, 61);
+}
+
+form button {
+    margin-top: 30px;
+    width: 77%; height: 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+}
+
